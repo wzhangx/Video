@@ -4,33 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>视频展示</title>
-  <style>
-    body {
-      max-width: 960px;
-      margin: 40px auto;
-      padding: 0 20px;
-      font-family: Arial, sans-serif;
-      background: #fff;
-      color: #222;
-      text-align: center;
-    }
-
-    video {
-      display: block;
-      width: 100%;
-      height: auto;
-      border-radius: 12px;
-    }
-  </style>
 </head>
-<body>
+<body style="text-align:center; padding:30px; font-family:sans-serif;">
+
   <h1>视频展示</h1>
 
-  <video controls playsinline preload="metadata">
+  <video controls playsinline preload="metadata"
+         style="width:100%; max-width:900px; height:auto;">
     <source src="./Lab tour.mp4" type="video/mp4">
     您的浏览器不支持视频播放。
   </video>
 
-  <p><a href="./Lab tour.mp4">打开视频文件</a></p>
 </body>
 </html>
